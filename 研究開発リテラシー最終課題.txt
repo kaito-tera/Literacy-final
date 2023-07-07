@@ -17,5 +17,9 @@
 
 ラーメン　醤油，塩，豚骨
 
-トップ index.html-(soy,salt,pig)
+トップ index.html-(soypig,pig,other)
+
+soypig-
+pig-めろう，まるぎん，銀十
+other
 
