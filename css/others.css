@@ -1,0 +1,112 @@
+.others {
+    background-color: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.others h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.others h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other-list {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: scroll;
+}
+
+.other-list li {
+    flex-shrink: 0;
+    width: 260px;
+    margin-left: 75px;
+    position: relative;
+}
+
+.other-list li:first-child {
+    margin-left: 0;
+}
+
+.maps {
+    background-color: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.maps h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.maps h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-list {
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;  
+    overflow: scroll;  
+    
+    
+}
+
+.map-list li {
+    flex-shrink: 0;
+    width: 500px;
+    margin-left: 100px ;  
+    position: relative; 
+
+}
+.map-list li:first-child {
+    margin-left: 0;
+}
+
+
+
+@media (max-width: 800px) {
+    .other-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+
+    .other-list li {
+        width: 220px;
+        margin-left: 30px;    
+    }
+
+    .map-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+
+    .map-list li {
+        width: 220px;
+        margin-left: 30px;    
+    }
+}
