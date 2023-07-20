@@ -1,5 +1,5 @@
 .pigs {
-    background: #f8f8f8;
+    background-color: #f8f8f8;
     padding-top: 45px;
     padding-bottom: 55px;
 }
@@ -7,7 +7,7 @@
 .pigs h2 {
     font-size: 22px;
     font-weight: bold;
-    text-align: center;    
+    text-align: center;
 }
 
 .pigs h2::after {
@@ -26,18 +26,23 @@
     padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 60px;
-    padding-right: 60px;  
-    overflow: scroll;  
+    padding-right: 60px;
+    overflow: scroll;
 }
 
 .pig-list li {
     flex-shrink: 0;
     width: 260px;
-    margin-left: 75px;    
+    margin-left: 75px;
+    position: relative;
+}
+
+.pig-list li:first-child {
+    margin-left: 0;
 }
 
 .maps {
-    background: #f8f8f8;
+    background-color: #f8f8f8;
     padding-top: 45px;
     padding-bottom: 55px;
 }
@@ -45,7 +50,7 @@
 .maps h2 {
     font-size: 22px;
     font-weight: bold;
-    text-align: center;    
+    text-align: center;
 }
 
 .maps h2::after {
@@ -64,18 +69,22 @@
     padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 60px;
-    padding-right: 60px;  
-    overflow: scroll;  
+    padding-right: 60px;
+    overflow: scroll;
 }
 
 .map-list li {
     flex-shrink: 0;
     width: 260px;
-    margin-left: 75px;    
+    margin-left: 75px;
+    position: relative;
 }
-/*.member-list li:first-child {
-    margin-left: 0;    
-}*/
+
+.map-list li:first-child {
+    margin-left: 0;
+}
+
+
 
 @media (max-width: 800px) {
     .pig-list {
@@ -98,4 +107,3 @@
         margin-left: 30px;    
     }
 }
-    
