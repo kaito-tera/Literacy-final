@@ -5,6 +5,7 @@
 }
 
 .others h2 {
+    font-family: 'Yu Mincho';
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -22,6 +23,7 @@
 }
 
 .other-list {
+    font-family: 'Yu Mincho';
     display: flex;
     padding-top: 40px;
     padding-bottom: 10px;
@@ -48,6 +50,7 @@
 }
 
 .maps h2 {
+    font-family: 'Yu Mincho';
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -65,6 +68,7 @@
 }
 
 .map-list {
+    font-family: 'Yu Mincho';
     display: flex;
     gap: 20px;
     padding-top: 40px;
