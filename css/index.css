@@ -9,6 +9,7 @@ nav.floating {
 }
 
 .first-view {
+    font-family: 'Yu Mincho';
     height: calc(100vh - 110px);
     background-image: url(../images/index/example-1.JPG);
     background-repeat: no-repeat;
@@ -31,7 +32,6 @@ nav.floating {
 }
 
 .first-view-text h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 56px;
     line-height: 72px;
 }
@@ -76,6 +76,7 @@ img {
 }
 
 .header-inner {
+    font-family: 'Yu Mincho';
     max-width: 1200px;
     height: 110px;
     margin-left: auto;
@@ -106,7 +107,7 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Yu Mincho';
 }
 
 @media (max-width: 800px) {
@@ -117,6 +118,10 @@ img {
 
     .site-menu li {
         margin-top: 20px;
+    }
+
+    .site-menu ul li a {
+        font-family: 'Yu Mincho';
     }
 
     .header {

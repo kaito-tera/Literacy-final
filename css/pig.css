@@ -1,10 +1,12 @@
 .pigs {
+    font-family: 'Yu Mincho';
     background-color: #f8f8f8;
     padding-top: 45px;
     padding-bottom: 55px;
 }
 
 .pigs h2 {
+    font-family: 'Yu Mincho';
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -42,6 +44,7 @@
 }
 
 .maps {
+    font-family: 'Yu Mincho';
     background-color: #f8f8f8;
     padding-top: 45px;
     padding-bottom: 55px;
