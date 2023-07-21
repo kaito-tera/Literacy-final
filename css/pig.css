@@ -72,8 +72,7 @@
     padding-left: 60px;
     padding-right: 60px;  
     overflow: scroll;  
-    
-    
+
 }
 
 .map-list li {
@@ -103,6 +102,8 @@
     .map-list {
         padding-left: 20px;
         padding-right: 20px;
+        
+        
     }    
 
     .map-list li {
